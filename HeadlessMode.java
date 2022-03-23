@@ -78,7 +78,7 @@ public class HeadlessMode {
         Thread.sleep(2000);
 
         //close
-        driver.close();
+        driver.quit();
         System.out.println("driver is closed successfully...");
 
     }

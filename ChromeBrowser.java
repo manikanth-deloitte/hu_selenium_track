@@ -60,7 +60,7 @@ public class ChromeBrowser {
         Thread.sleep(2000);
 
         //close
-        driver.close();
+        driver.quit();
     }
 
 }
